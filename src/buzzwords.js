@@ -37,7 +37,7 @@ function deBullshit(textNode)
 		replace(/\bbig data\b/gi, "THE BIG D").
 		replace(/\bthe cloud\b/gi, "THAT NEWFANGLED DATA STORE").
 		replace(/\bincrease roi\b/gi, "SPEND MORE MONEY").
-		replace(/\b(client-centric|client centric)\b/gi, "IDIOT PROOF").
+		replace(/\bclient[- ]centric\b/gi, "IDIOT PROOF").
 		replace(/\banalytics\b/gi, "STALKING COOKIES").
 		replace(/\binvested\b/gi, "PISSED AWAY").
 		replace(/\bdisruptive technology\b/gi, "NEW SHIT FROM TECH HIPSTERS").
