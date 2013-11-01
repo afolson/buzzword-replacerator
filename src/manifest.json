@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Buzzword Replacerator",
+	"description": "A Google Chrome extension to replace buzzwords with more accurate words.",
+	"version": "1.0",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"exclude_matches": ["*://localhost/*"],
+			"js": ["buzzwords.js"],
+			"run_at": "document_end"
+		}
+	]
+}
