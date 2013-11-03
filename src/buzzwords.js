@@ -41,5 +41,6 @@ function deBullshit(textNode)
 		replace(/\banalytics\b/gi, "STALKING COOKIES").
 		replace(/\binvested\b/gi, "PISSED AWAY").
 		replace(/\bdisruptive technology\b/gi, "NEW SHIT FROM TECH HIPSTERS").
-		replace(/\bcontent marketing\b/gi, "SEO FARMING");
+		replace(/\bcontent marketing\b/gi, "SEO FARMING").
+		replace(/\bmind map\b/gi, "BRAIN DIARRHEA");
 }
