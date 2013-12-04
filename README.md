@@ -1,11 +1,11 @@
 Buzzword Replacerator
 =====================
 
-A Google Chrome extension to replace buzzwords with more accurate words.
+A UserScript port of the Google Chrome extension to replace buzzwords with more accurate words.
+
 
 Installation
 ------------
-
-One day I will become unlazy and submit this to the Chrome Store. Until then, you can install 
-this extension by checking out the code, turning "Developer Mode" on under Chrome Extensions, 
-and clicking "Load Unpacked Extension". From there, select the "src" folder and enable this goodness.
+* FireFox - [Greasemonkey Manual:Installing Scripts](http://wiki.greasespot.net/Greasemonkey_Manual:Installing_Scripts "Title")
+* Opera   - [User JavaScript: What It Can Do](http://www.opera.com/docs/userjs/using/#writingscripts "Title")
+* Chrome  - [How to Install Extensions From Outside the Chrome Web Store](http://www.howtogeek.com/120743/how-to-install-extensions-from-outside-the-chrome-web-store/ "Title") or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en "Title")
