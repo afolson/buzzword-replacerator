@@ -2,7 +2,7 @@
 // @name        Buzzword Replacerator
 // @namespace   https://github.com/afolson/buzzword-replacerator
 // @description A UserScript port of the Google Chrome extension to replace buzzwords with more accurate words.
-// @version     0.1.0
+// @version     0.1.1
 // @grant       none
 // @include     *
 // @match       http://*/*
@@ -40,6 +40,9 @@
     	// http://is.gd/mwZp7E
     	// Which I stole from here:
     	// https://github.com/panicsteve/cloud-to-butt/blob/master/Source/content_script.js
+	if (!node) { // If `node` does not exist, stop looking.
+	   return false;
+	};
     	var child, next;
     	switch (node.nodeType) {
     		case 1:  // Element
