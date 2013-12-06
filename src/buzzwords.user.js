@@ -40,9 +40,9 @@
     	// http://is.gd/mwZp7E
     	// Which I stole from here:
     	// https://github.com/panicsteve/cloud-to-butt/blob/master/Source/content_script.js
-	if (!node) { // If `node` does not exist, stop looking.
-	   return false;
-	};
+        if (!node) { // The node does not exist, stop looking.
+            return false;
+        };
     	var child, next;
     	switch (node.nodeType) {
     		case 1:  // Element
