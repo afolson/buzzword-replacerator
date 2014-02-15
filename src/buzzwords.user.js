@@ -8,7 +8,7 @@
 // @match       http://*/*
 // @match       https://*/*
 // @downloadURL https://github.com/afolson/buzzword-replacerator/raw/userscript/src/buzzwords.user.js
-// @updateURL   https://github.com/afolson/buzzword-replacerator/raw/userscript/src/buzzwords.user.js
+// @updateURL   https://github.com/afolson/buzzword-replacerator/raw/userscript/src/buzzwords.meta.js
 // ==/UserScript==
 // buzzword-replacerator - Replace common buzzwords with more accurate descriptions.
 // Copyright (C) 2013  Amanda Folson <amanda@incredibl.org>
