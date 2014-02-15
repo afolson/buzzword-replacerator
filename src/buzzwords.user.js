@@ -77,6 +77,7 @@
     		replace(/\bdisruptive technology\b/gi, "NEW SHIT FROM TECH HIPSTERS").
     		replace(/\bcontent marketing\b/gi, "SEO FARMING").
     		replace(/\bmind map\b/gi, "BRAIN DIARRHEA").
-    		replace(/\bseed funding\b/gi, "BLOOD MONEY");
+    		replace(/\bseed funding\b/gi, "BLOOD MONEY").
+        	replace(/\bweb scale\b/gi, "FRIGGIN HUGE");
     };
 })();
