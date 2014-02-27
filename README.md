@@ -1,7 +1,7 @@
 Buzzword Replacerator
 =====================
 
-A Google Chrome extension to replace buzzwords with more accurate words.
+A Google Chrome extension to replace buzzwords with more accurate words. Contains strong language.
 
 Installation
 ------------
